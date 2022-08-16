@@ -12,8 +12,8 @@
     justify-content: center;
     align-items: center;
     background: #838383;
-    width: 500px;
-    margin-top: 350px;
+    width: 700px;
+    margin-top: 300px;
     padding: 50px;
     border-radius: 20px;
 }
@@ -22,7 +22,7 @@
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     padding: 10px;
-    width: 500px;
+    width: 700px;
     margin: 10px;
 }
 
@@ -40,4 +40,24 @@
 .bi-envelope-check:hover {
     transform: scale(1.2);
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 428px) {
+    .email-form {
+        width: 300px;
+        margin-top: 150px;
+    }
+
+    .name-field, .email-field, .details-field {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 391px) {
+    .email-form {
+        width: 240px;
+    }
+
+    .name-field, .email-field, .details-field {
+        width: 240px;
+    }
 }

@@ -14,19 +14,24 @@ body {
 }
 
 .title {
-    padding-top: 300px;
+    padding-top: 250px;
 }
 
 .name {
+    text-align: center;
     font-family: 'Permanent Marker', cursive;
     font-size: 100px;
     cursor: default;
 }
 
 .languages {
-    margin-top: -40px;
+    margin-top: -60px;
     font-size: 25px;
     cursor: default;
+}
+
+.languages-link {
+    color: black;
 }
 
 .bi-github, .bi-linkedin, .bi-envelope-fill {

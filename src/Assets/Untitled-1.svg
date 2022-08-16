@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 280px;
+        text-anchor: end;
+        font-family: "Permanent Marker";
+      }
+    </style>
+  </defs>
+  <text id="RW" class="cls-1" x="471.75" y="348.75"><tspan x="471.75">RW</tspan></text>
+</svg>

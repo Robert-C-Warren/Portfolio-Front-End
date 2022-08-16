@@ -1,3 +1,13 @@
+.header-main {
+    display: flex;
+}
+
+.initials {
+    font-size: 20px;
+    padding-left: 18px;
+    padding-top: 2px;
+}
+
 .header {
     position: absolute;
     right: 0;
@@ -6,6 +16,10 @@
 
 .home-link, .about-link, .contact-link {
     padding: 10px;
-    font-size: 20px;
-    cursor: pointer;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+.home-link:hover, .about-link:hover, .contact-link:hover {
+    color: #b4b4b4;
 }

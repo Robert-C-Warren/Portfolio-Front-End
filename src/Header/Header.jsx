@@ -1,26 +1,19 @@
-import React, { useNavigate } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
 import './Header.css'
+import Initials from '../Assets/Untitled-1.svg'
 
 const Header = () => {
 
-    // let navigation = useNavigate();
-
-    // const navigateToEmail = () => {
-    //     navigation('/email')
-    // }
-    // const navigateToHome = () => {
-    //     navigation('/')
-    // }
-    // const navigateToAbout = () => {
-    //     navigation('/about')
-    // }
-
   return (
-    <div>
+    <div className='header-main'>
+        
+        <img className='initials' src={Initials} width={70} height={70} alt='Initials' />
+
         <div className='header'>
-            <a className='home-link'>home</a>
-            <a className='about-link'>about</a>
-            <a className='contact-link'>contact</a>
+            <Link to='/' className='home-link' style={{ textDecoration: 'none' }} >home</Link>
+            <Link to='/about' className='about-link' style={{ textDecoration: 'none' }} >about</Link>
+            <Link to='/email' className='contact-link' style={{ textDecoration: 'none' }} >contact</Link>
         </div>
     </div>
   )

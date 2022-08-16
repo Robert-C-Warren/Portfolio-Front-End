@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -18,7 +18,7 @@ const Home = () => {
         </div>
 
         <div className='languages'>
-            <h3>Java | Spring Boot | React.js</h3>
+            <Link to='/about' className='languages-link' style={{ textDecoration: 'none' }}>Java | Spring Boot | React.js</Link>
         </div>
 
         <div className='social-icons'>
