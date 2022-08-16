@@ -22,16 +22,22 @@ body {
     font-family: 'Permanent Marker', cursive;
     font-size: 100px;
     cursor: default;
+    --animate-duration: 1.5s;
 }
 
 .languages {
     margin-top: -60px;
     font-size: 25px;
     cursor: default;
+    --animate-duration: 1.5s;
 }
 
 .languages-link {
     color: black;
+}
+
+.languages-link:hover {
+    color: #b4b4b4;
 }
 
 .bi-github, .bi-linkedin, .bi-envelope-fill {
@@ -41,6 +47,7 @@ body {
     padding: 20px;
     cursor: pointer;
     transition: transform 0.3s;
+    --animate-duration: 3s;
 }
 
 .bi-github:hover, .bi-linkedin:hover, .bi-envelope-fill:hover {
@@ -53,7 +60,7 @@ body {
     }
 
     .languages {
-        font-size: 15px;
+        font-size: 18px;
         margin-top: -50px;
     }
 

@@ -3,7 +3,7 @@ import axios from 'axios'
 import './Email.css'
 import { ToastContainer, toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
-import Header from '../Header/Header';
+import 'animate.css'
 
 const Email = () => {
 
@@ -30,7 +30,7 @@ function notify() {
 }
 
   return (
-        <div className='email-form-div'>
+        <div className='animate__animated animate__swing email-form-div'>
         {/* Email details form */}
         <form className='email-form' onSubmit={handleSubmit}>
             <input type='text' className='name-field' placeholder='Name' value={name} onChange={(e) => setName(e.target.value)}/>

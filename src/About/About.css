@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Titillium+Web:wght@300&display=swap');
+
+.about-main {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.title {
+    text-align: center;
+    --animate-duration: 1.5s;
+}
+
+.bi-arrow-down {
+    font-size: 60px;
+    position: fixed;
+    bottom: 15%;
+    left: 49%;
+}
+
+.bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+      }
+      60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+      }
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+      }
+      60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+      }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+      }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+.experience {
+    margin-top: 600px;
+}
+
+.about-para {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    margin-top: -50px;
+    font-size: 18px;
+    width: 700px;
+}
+
+.personal {
+    margin-top: 600px;
+}
+
+.personal-para {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    margin-top: -50px;
+    font-size: 18px;
+    width: 700px; 
+}
+
+.site-link {
+    color: black;
+}
+
+.site-link:hover {
+    color: #b4b4b4;
+}
+
+.music-link {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.spotify-link {
+    margin-top: -16px;
+}
+
+.bi-spotify {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 70px;
+    background: none;
+    border: none;
+    margin-top: -60px;
+    cursor: pointer;
+    transition: transform .3s;
+    margin-bottom: 100px;
+}
+
+.bi-spotify:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 420px) {
+
+    .bi-arrow-down {
+        color: #696969;
+    }
+
+    .experience {
+        margin-top: 200px;
+    }
+    
+    .about-para {
+        font-family: 'Titillium Web', sans-serif;
+        text-align: center;
+        margin-top: -50px;
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .personal {
+        margin-top: 200px;
+    }
+    
+    .personal-para {
+        font-family: 'Titillium Web', sans-serif;
+        text-align: center;
+        margin-top: -50px;
+        font-size: 18px;
+        width: 300px; 
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .bi-arrow-down {
+        color: #696969;
+    }
+
+    .experience {
+        margin-top: 200px;
+    }
+    
+    .about-para {
+        font-family: 'Titillium Web', sans-serif;
+        text-align: center;
+        margin-top: -50px;
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .personal {
+        margin-top: 200px;
+    }
+    
+    .personal-para {
+        font-family: 'Titillium Web', sans-serif;
+        text-align: center;
+        margin-top: -50px;
+        font-size: 18px;
+        width: 300px; 
+    }
+}
