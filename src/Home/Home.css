@@ -47,7 +47,6 @@ body {
     padding: 20px;
     cursor: pointer;
     transition: transform 0.3s;
-    --animate-duration: 3s;
 }
 
 .bi-github:hover, .bi-linkedin:hover, .bi-envelope-fill:hover {

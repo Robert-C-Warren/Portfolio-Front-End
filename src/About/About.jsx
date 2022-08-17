@@ -15,7 +15,7 @@ useEffect(() => {
 
 // Scroll listener that sets the arrow to hidden when the height of the page hits 317
 const listenToScroll = () => {
-    let heightToHideFrom = 317;
+    let heightToHideFrom = 100;
     const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     setHeight(winScroll);
 
@@ -64,7 +64,6 @@ const listenToScroll = () => {
         <a className='spotify-link' href='https://open.spotify.com/artist/7ecTUSo8sLzsEJfyZwZ34T' target="_blank" rel='noreferrer'>
             <button className='bi bi-spotify' />
         </a>
-        
     </div>
   )
 }

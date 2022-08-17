@@ -4,6 +4,7 @@ import './Email.css'
 import { ToastContainer, toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import 'animate.css'
+import ParticlesBg from 'particles-bg'
 
 const Email = () => {
 

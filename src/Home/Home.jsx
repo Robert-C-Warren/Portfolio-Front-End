@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import './Home.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { useNavigate, Link } from 'react-router-dom'
 import 'animate.css'
+import ParticlesBg from 'particles-bg'
 
 const Home = () => {
 
@@ -24,16 +25,16 @@ const Home = () => {
 
         <div className='social-icons'>
             <a href='https://github.com/Robert-C-Warren?tab=repositories' target="_blank" rel='noreferrer'>
-                <button className="animate__animated animate__flipInX bi bi-github"></button>
+                <button className="bi bi-github"></button>
             </a>
 
             <a href='https://www.linkedin.com/in/robert-warren-996822118/' target='_blank' rel='noreferrer'>
-                <button className="animate__animated animate__flipInX bi bi-linkedin"></button>
+                <button className="bi bi-linkedin"></button>
             </a>
             
-            <button className="animate__animated animate__flipInX bi bi-envelope-fill" onClick={navigateToEmail}></button>
+            <button className="bi bi-envelope-fill" onClick={navigateToEmail}></button>
         </div>
-
+        <ParticlesBg color="#000000" type='cobweb' bg={true} />
     </div>
   )
 }
