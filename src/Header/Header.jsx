@@ -13,6 +13,7 @@ const Header = () => {
         <div className='header'>
             <Link to='/' className='home-link' style={{ textDecoration: 'none' }} >home</Link>
             <Link to='/about' className='about-link' style={{ textDecoration: 'none' }} >about</Link>
+            <Link to='/projects' className='projects-link' style={{ textDecoration: 'none' }} >projects</Link>
             <Link to='/email' className='contact-link' style={{ textDecoration: 'none' }} >contact</Link>
         </div>
     </div>

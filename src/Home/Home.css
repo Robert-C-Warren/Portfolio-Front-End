@@ -14,7 +14,7 @@ body {
 }
 
 .title {
-    padding-top: 250px;
+    margin-top: 250px;
 }
 
 .name {
@@ -64,7 +64,7 @@ body {
     }
 
     .title {
-        padding-top: 100px;
+        margin-top: 150px;
     }
 
     .bi-github, .bi-linkedin, .bi-envelope-fill {
@@ -75,6 +75,6 @@ body {
 
 @media screen and (max-width: 800px) {
     .title {
-        padding-top: 100px;
+        margin-top: 120px;
     }
 }

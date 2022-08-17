@@ -14,12 +14,19 @@
     padding: 20px;
 }
 
-.home-link, .about-link, .contact-link {
+.home-link, .about-link, .contact-link, .projects-link {
     padding: 10px;
     font-size: 22px;
     color: rgb(0, 0, 0);
 }
 
-.home-link:hover, .about-link:hover, .contact-link:hover {
+.home-link:hover, .about-link:hover, .contact-link:hover, .projects-link:hover {
     color: #b4b4b4;
+}
+
+@media screen and (max-width: 450px) {
+    .home-link, .about-link, .contact-link, .projects-link {
+        font-size: 16px;
+        padding: 5px;
+    }
 }

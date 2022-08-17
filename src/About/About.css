@@ -142,6 +142,8 @@
 
     .bi-arrow-down {
         color: #696969;
+        bottom: 50%;
+        left: 49%;
     }
 
     .experience {
