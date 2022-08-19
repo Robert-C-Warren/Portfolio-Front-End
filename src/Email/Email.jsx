@@ -39,6 +39,7 @@ function notify() {
             <textarea type='text' className='details-field' placeholder='Message' value={details} onChange={(e) => setDetails(e.target.value)}/>
             <button type='submit' className='bi bi-envelope-check' onClick={notify}>Talk Soon!</button>
         </form>
+            <ParticlesBg color="#000000" type='cobweb' bg={true} />
             <ToastContainer />
         </div>
   )

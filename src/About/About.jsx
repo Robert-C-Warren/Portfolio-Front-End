@@ -29,7 +29,7 @@ const listenToScroll = () => {
   return (
     <div className='about-main'>
 
-        <h1 className='animate__animated animate__backInDown title'>About Me</h1>
+        <h1 className='animate__animated animate__backInDown about-me'>About Me</h1>
 
         {/* Down arrow that disappears at height of 317 */}
         {
@@ -44,8 +44,8 @@ const listenToScroll = () => {
         <p className='about-para'>I am a Java Full Stack developer. I mainly use React.js, Java Spring Boot,
                                     and MySQL as my stack of choice. I have built several projects in Java,
                                     as well as a couple in React.js. I have collaborated with a team to build 
-                                    a bug tracker application, which is available on my GitHub, as well as at  
-                                    <a href='http://bugtracker.link' className='site-link'> bugtracker.link.</a> This project also contains
+                                    a bug tracker application, which is available <a href='/bugtracker' className='site-link'>here</a>, as well as 
+                                    at <a href='http://bugtracker.link' className='site-link'>bugtracker.link.</a> This project also contains
                                     security via JWT and bCrypt, email service on the backend when a bug is added
                                     by a user, and user and admin privileges.
         </p>
